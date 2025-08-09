@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centre d'Estudis Sabadell</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <div class="logo-icon">CES</div>
+                    <div class="logo-text">
+                        <h1>Centre d'Estudis Sabadell</h1>
+                        <p>Català | Castellano</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <div class="nav-container">
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="#" class="nav-link active" onclick="showSection('centre')">El CES</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link" onclick="showSection('idiomes')">Idiomes</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link" onclick="showSection('informatica')">Informàtica</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link" onclick="showSection('reforcament')">Reforç escolar</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link" onclick="showSection('proves')">Proves d'accés</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container">
+            <!-- El CES Section -->
+            <div id="centre-section" class="content-section">
+                <div class="section-header">
+                    <div class="section-icon" style="background: linear-gradient(135deg, #4f46e5, #7c3aed);">🏢</div>
+                    <div class="section-title">
+                        <h2>El Centre</h2>
+                        <p class="subtitle">Formació acadèmica i professional especialitzada</p>
+                    </div>
+                </div>
+
+                <div class="schedule">
+                    <h3>⏰ Horaris</h3>
+                    <div class="schedule-grid">
+                        <div class="schedule-item">
+                            <strong>De dilluns a divendres:</strong><br>
+                            Matins de 9:30 h. a 13:30 h.<br>
+                            Tardes de 16:45 h a 20:45 h.
+                        </div>
+                        <div class="schedule-item">
+                            <strong>Dissabtes:</strong><br>
+                            Matins de 10:00 h. a 13:00 h.
+                        </div>
+                    </div>
+                </div>
+
+                <p>El CES és un centre de formació acadèmica i professional especialitzada en idiomes, reforç escolar i noves tecnologies. Sigui quina sigui l'edat o la necessitat, aquí trobareu l'ajuda que busqueu en reforç, preparació de proves d'accés, exàmens oficials, logopèdia o informàtica.</p>
+
+                <h3>Grups reduïts, classes a mida</h3>
+                <p>Al CES el nombre d'alumnes per grup és molt reduït, i les classes es fan a mida segons les necessitats en cada cas. Així doncs, podem conèixer exactament l'estat de cada un dels alumnes i fer un seguiment individual que ens permet adequar el temari i focalitzar els continguts del curs de forma específica. Tot això sense haver de renunciar a compartir coneixements i inquietuds amb els companys de classe.</p>
+
+                <p>D'aquesta manera obtenim totes les avantatges d'un professor particular, amb les possibilitats que ofereix el treball en grup amb persones d'interessos comuns: diàleg, motivació, acceptació... L'èxit està assegurat!</p>
+
+                <h3>Horari a la carta: anem al teu ritme!</h3>
+                <p>A la nostra acadèmia tu decideixes el temps que vols invertir en la teva formació, i nosaltres ens adaptem al teu ritme d'aprenentatge. A més, dins els nostres horaris, pots triar les hores que més et convinguin.</p>
+
+                <div class="contact-info">
+                    <h3>Informació de contacte</h3>
+                    <div class="contact-detail">
+                        <div class="contact-icon">📍</div>
+                        <div>
+                            <strong>Centre d'Estudis Sabadell</strong><br>
+                            Carrer Tres Creus, 148<br>
+                            08202 - Sabadell (Barcelona)<br>
+                            Tel.639 83 40 41
+                        </div>
+                    </div>
+                    
+                    <div class="contact-detail">
+                        <div class="contact-icon">🚇</div>
+                        <div>
+                            <strong>Transport públic</strong><br>
+                            - A 50 m. de l'estació de Rodalies "Sabadell Centre"<br>
+                            - A 50 m. de l'estació central d'autobusos<br>
+                            - A 200 m. de l'estació dels FGC "Sabadell Rambla"
+                        </div>
+                    </div>
+
+                    <a href="https://wa.me/34639834041" class="whatsapp-btn" target="_blank">
+                        📱 WhatsApp: 639834041
+                    </a>
+                </div>
+
+                <div class="contact-form">
+                    <h3>Contacta</h3>
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <label for="nom">Nom:</label>
+                            <input type="text" id="nom" name="nom">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-mail:</label>
+                            <input type="email" id="email" name="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="telefon">Telèfon:</label>
+                            <input type="tel" id="telefon" name="telefon">
+                        </div>
+                        <div class="form-group">
+                            <label for="missatge">¿Què t'interessa?:</label>
+                            <textarea id="missatge" name="missatge" rows="5"></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Enviar</button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Sections dynamically loaded -->
+            <div id="idiomes-section" class="content-section hidden"></div>
+            <div id="informatica-section" class="content-section hidden"></div>
+            <div id="reforcament-section" class="content-section hidden"></div>
+            <div id="proves-section" class="content-section hidden"></div>
+        </div>
+    </main>
+
+    <script src="js/sections.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
