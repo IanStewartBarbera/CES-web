@@ -241,176 +241,173 @@ const sectionContent = {
     `,
 
     reforcament: `
-        <div id="reforcament-section" class="content-section hidden">
-                <div class="section-header">
-                    <div class="section-icon" style="background: linear-gradient(135deg, #f59e0b, #d97706);">📚</div>
-                    <div class="section-title">
-                        <h2>Reforç Escolar</h2>
-                        <p class="subtitle">Suport acadèmic personalitzat per a tots els nivells</p>
-                    </div>
+        <div class="section-header">
+            <div class="section-icon" style="background: linear-gradient(135deg, #f59e0b, #d97706);">📚</div>
+            <div class="section-title">
+                <h2>Reforç Escolar</h2>
+                <p class="subtitle">Suport acadèmic personalitzat per a tots els nivells</p>
+            </div>
+        </div>
+
+        <div class="schedule">
+            <h3>⏰ Horaris</h3>
+            <div class="schedule-grid">
+                <div class="schedule-item">
+                    <strong>De dilluns a divendres:</strong><br>
+                    Matins de 9:30 h. a 13:30 h.<br>
+                    Tardes de 16:45 h a 20:45 h.
                 </div>
-
-                <div class="schedule">
-                    <h3>⏰ Horaris</h3>
-                    <div class="schedule-grid">
-                        <div class="schedule-item">
-                            <strong>De dilluns a divendres:</strong><br>
-                            Matins de 9:30 h. a 13:30 h.<br>
-                            Tardes de 16:45 h a 20:45 h.
-                        </div>
-                        <div class="schedule-item">
-                            <strong>Dissabtes:</strong><br>
-                            Matins de 10:00 h. a 13:00 h.
-                        </div>
-                    </div>
-                </div>
-
-                <div class="courses-grid">
-                    <div class="course-card" style="background: linear-gradient(135deg, #3b82f6, #1d4ed8);">
-                        <h4>👶 Educació Primària</h4>
-                        <p>El reforç escolar en educació primària és fonamental per establir unes bases sòlides d'aprenentatge. Els nostres professors especialitzats ofereixen suport individualitzat per ajudar els alumnes a superar les seves dificultats i desenvolupar hàbits d'estudi adequats.</p>
-                        
-                        <p><strong>Àrees que treballem:</strong></p>
-                        <p>• Matemàtiques bàsiques i resolució de problemes<br>
-                        • Llengua catalana i castellana<br>
-                        • Comprensió lectora i expressió escrita<br>
-                        • Ciències naturals i socials<br>
-                        • Tècniques d'estudi i organització</p>
-                        
-                        <p>Les classes es desenvolupen en grups reduïts o de manera individual, adaptant-se al ritme i necessitats específiques de cada alumne. Utilitzem metodologies dinàmiques i materials didàctics atractius per mantenir la motivació dels més petits.</p>
-                    </div>
-
-                    <div class="course-card" style="background: linear-gradient(135deg, #8b5cf6, #7c3aed);">
-                        <h4>🎒 Educació Secundària Obligatòria (ESO)</h4>
-                        <p>Durant l'ESO, els estudiants s'enfronten a nous reptes acadèmics que requereixen un major nivell d'autonomia i organització. El nostre programa de reforç està dissenyat per donar suport als alumnes en aquesta etapa crucial del seu desenvolupament acadèmic.</p>
-                        
-                        <p><strong>Matèries que oferim:</strong></p>
-                        <p>• Matemàtiques (àlgebra, geometria, estadística)<br>
-                        • Llengua i literatura (catalana i castellana)<br>
-                        • Ciències (física, química, biologia)<br>
-                        • Ciències socials i història<br>
-                        • Anglès i altres idiomes<br>
-                        • Tecnologia i informàtica</p>
-                        
-                        <p>Els nostres professors treballen de manera coordinada amb els centres educatius per assegurar la continuïtat pedagògica i el seguiment individualitzat de cada alumne.</p>
-                    </div>
-
-                    <div class="course-card" style="background: linear-gradient(135deg, #ef4444, #dc2626);">
-                        <h4>🎓 Batxillerat</h4>
-                        <p>El batxillerat representa l'etapa final abans de l'accés a la universitat o als cicles formatius superiors. Oferim un suport especialitzat per ajudar els estudiants a superar amb èxit aquesta fase tan important.</p>
-                        
-                        <p><strong>Modalitats que cobrim:</strong></p>
-                        <p>• <strong>Batxillerat Científic:</strong> Matemàtiques, Física, Química, Biologia<br>
-                        • <strong>Batxillerat d'Humanitats:</strong> Història, Literatura, Filosofia, Llatí<br>
-                        • <strong>Batxillerat Social:</strong> Economia, Geografia, Sociologia</p>
-                        
-                        <p>Les nostres classes estan orientades no només a superar les assignatures, sinó també a la preparació específica per a les Proves d'Accés a la Universitat (PAU), amb simulacres d'examen i tècniques específiques per a cada matèria.</p>
-                    </div>
-
-                    <div class="course-card" style="background: linear-gradient(135deg, #10b981, #059669);">
-                        <h4>🧠 Tècniques d'Estudi</h4>
-                        <p>Ensenyem als estudiants estratègies efectives per optimitzar el seu temps d'estudi i millorar el rendiment acadèmic. Aquestes habilitats són transversals i beneficiaran l'alumne durant tota la seva vida acadèmica i professional.</p>
-                        
-                        <p><strong>Continguts del programa:</strong></p>
-                        <p>• Planificació i organització del temps<br>
-                        • Tècniques de lectura ràpida i comprensiva<br>
-                        • Elaboració de resums i esquemes<br>
-                        • Mètodes de memorització<br>
-                        • Preparació d'exàmens<br>
-                        • Gestió dels nervis i l'ansietat</p>
-                        
-                        <p>Adaptem les tècniques a l'edat i les necessitats específiques de cada alumne, des de primària fins a batxillerat i estudis superiors.</p>
-                    </div>
-
-                    <div class="course-card" style="background: linear-gradient(135deg, #f97316, #ea580c);">
-                        <h4>💬 Logopèdia</h4>
-                        <p>Disposem de serveis de logopèdia per tractar dificultats en la comunicació, el llenguatge, la parla, la veu i la deglució. Els nostres especialistes treballen tant amb nens com amb adults.</p>
-                        
-                        <p><strong>Àmbits d'intervenció:</strong></p>
-                        <p>• Retards en el desenvolupament del llenguatge<br>
-                        • Dificultats d'articulació i pronunciació<br>
-                        • Problemes de fluïdesa (tartamudeig)<br>
-                        • Dislèxia i altres dificultats d'aprenentatge<br>
-                        • Trastorns de la veu<br>
-                        • Rehabilitació després de lesions cerebrals</p>
-                        
-                        <p>El tractament és sempre individualitzat i basat en una avaluació exhaustiva de cada cas. Treballem en estreta col·laboració amb les famílies i els centres educatius per assegurar la generalització dels aprenentatges.</p>
-                    </div>
-
-                    <div class="course-card" style="background: linear-gradient(135deg, #06b6d4, #0891b2);">
-                        <h4>👥 Atenció a la Diversitat</h4>
-                        <p>Oferim suport especialitzat per a alumnes amb necessitats educatives especials, adaptant les metodologies i materials a les seves característiques individuals per garantir el seu èxit acadèmic.</p>
-                        
-                        <p><strong>Alumnes que atenem:</strong></p>
-                        <p>• Trastorn per dèficit d'atenció (TDAH)<br>
-                        • Trastorns de l'espectre autista (TEA)<br>
-                        • Dificultats específiques d'aprenentatge<br>
-                        • Altes capacitats intel·lectuals<br>
-                        • Trastorns del desenvolupament<br>
-                        • Diversitat funcional</p>
-                        
-                        <p>El nostre equip multidisciplinar inclou psicòlegs, pedagogs i especialistes en educació especial que treballen de manera coordinada per oferir una atenció integral.</p>
-                    </div>
+                <div class="schedule-item">
+                    <strong>Dissabtes:</strong><br>
+                    Matins de 10:00 h. a 13:00 h.
                 </div>
             </div>
-        `,
+        </div>
 
-        proves: `
-            <div id="proves-section" class="content-section hidden">
-                <div class="section-header">
-                    <div class="section-icon" style="background: linear-gradient(135deg, #dc2626, #991b1b);">🎯</div>
-                    <div class="section-title">
-                        <h2>Proves d'Accés</h2>
-                        <p class="subtitle">Preparació especialitzada per superar amb èxit</p>
-                    </div>
+        <div class="courses-grid">
+            <div class="course-card" style="background: linear-gradient(135deg, #3b82f6, #1d4ed8);">
+                <h4>👶 Educació Primària</h4>
+                <p>El reforç escolar en educació primària és fonamental per establir unes bases sòlides d'aprenentatge. Els nostres professors especialitzats ofereixen suport individualitzat per ajudar els alumnes a superar les seves dificultats i desenvolupar hàbits d'estudi adequats.</p>
+                
+                <p><strong>Àrees que treballem:</strong></p>
+                <p>• Matemàtiques bàsiques i resolució de problemes<br>
+                • Llengua catalana i castellana<br>
+                • Comprensió lectora i expressió escrita<br>
+                • Ciències naturals i socials<br>
+                • Tècniques d'estudi i organització</p>
+                
+                <p>Les classes es desenvolupen en grups reduïts o de manera individual, adaptant-se al ritme i necessitats específiques de cada alumne. Utilitzem metodologies dinàmiques i materials didàctics atractius per mantenir la motivació dels més petits.</p>
+            </div>
+
+            <div class="course-card" style="background: linear-gradient(135deg, #8b5cf6, #7c3aed);">
+                <h4>🎒 Educació Secundària Obligatòria (ESO)</h4>
+                <p>Durant l'ESO, els estudiants s'enfronten a nous reptes acadèmics que requereixen un major nivell d'autonomia i organització. El nostre programa de reforç està dissenyat per donar suport als alumnes en aquesta etapa crucial del seu desenvolupament acadèmic.</p>
+                
+                <p><strong>Matèries que oferim:</strong></p>
+                <p>• Matemàtiques (àlgebra, geometria, estadística)<br>
+                • Llengua i literatura (catalana i castellana)<br>
+                • Ciències (física, química, biologia)<br>
+                • Ciències socials i història<br>
+                • Anglès i altres idiomes<br>
+                • Tecnologia i informàtica</p>
+                
+                <p>Els nostres professors treballen de manera coordinada amb els centres educatius per assegurar la continuïtat pedagògica i el seguiment individualitzat de cada alumne.</p>
+            </div>
+
+            <div class="course-card" style="background: linear-gradient(135deg, #ef4444, #dc2626);">
+                <h4>🎓 Batxillerat</h4>
+                <p>El batxillerat representa l'etapa final abans de l'accés a la universitat o als cicles formatius superiors. Oferim un suport especialitzat per ajudar els estudiants a superar amb èxit aquesta fase tan important.</p>
+                
+                <p><strong>Modalitats que cobrim:</strong></p>
+                <p>• <strong>Batxillerat Científic:</strong> Matemàtiques, Física, Química, Biologia<br>
+                • <strong>Batxillerat d'Humanitats:</strong> Història, Literatura, Filosofia, Llatí<br>
+                • <strong>Batxillerat Social:</strong> Economia, Geografia, Sociologia</p>
+                
+                <p>Les nostres classes estan orientades no només a superar les assignatures, sinó també a la preparació específica per a les Proves d'Accés a la Universitat (PAU), amb simulacres d'examen i tècniques específiques per a cada matèria.</p>
+            </div>
+
+            <div class="course-card" style="background: linear-gradient(135deg, #10b981, #059669);">
+                <h4>🧠 Tècniques d'Estudi</h4>
+                <p>Ensenyem als estudiants estratègies efectives per optimitzar el seu temps d'estudi i millorar el rendiment acadèmic. Aquestes habilitats són transversals i beneficiaran l'alumne durant tota la seva vida acadèmica i professional.</p>
+                
+                <p><strong>Continguts del programa:</strong></p>
+                <p>• Planificació i organització del temps<br>
+                • Tècniques de lectura ràpida i comprensiva<br>
+                • Elaboració de resums i esquemes<br>
+                • Mètodes de memorització<br>
+                • Preparació d'exàmens<br>
+                • Gestió dels nervis i l'ansietat</p>
+                
+                <p>Adaptem les tècniques a l'edat i les necessitats específiques de cada alumne, des de primària fins a batxillerat i estudis superiors.</p>
+            </div>
+
+            <div class="course-card" style="background: linear-gradient(135deg, #f97316, #ea580c);">
+                <h4>💬 Logopèdia</h4>
+                <p>Disposem de serveis de logopèdia per tractar dificultats en la comunicació, el llenguatge, la parla, la veu i la deglució. Els nostres especialistes treballen tant amb nens com amb adults.</p>
+                
+                <p><strong>Àmbits d'intervenció:</strong></p>
+                <p>• Retards en el desenvolupament del llenguatge<br>
+                • Dificultats d'articulació i pronunciació<br>
+                • Problemes de fluïdesa (tartamudeig)<br>
+                • Dislèxia i altres dificultats d'aprenentatge<br>
+                • Trastorns de la veu<br>
+                • Rehabilitació després de lesions cerebrals</p>
+                
+                <p>El tractament és sempre individualitzat i basat en una avaluació exhaustiva de cada cas. Treballem en estreta col·laboració amb les famílies i els centres educatius per assegurar la generalització dels aprenentatges.</p>
+            </div>
+
+            <div class="course-card" style="background: linear-gradient(135deg, #06b6d4, #0891b2);">
+                <h4>👥 Atenció a la Diversitat</h4>
+                <p>Oferim suport especialitzat per a alumnes amb necessitats educatives especials, adaptant les metodologies i materials a les seves característiques individuals per garantir el seu èxit acadèmic.</p>
+                
+                <p><strong>Alumnes que atenem:</strong></p>
+                <p>• Trastorn per dèficit d'atenció (TDAH)<br>
+                • Trastorns de l'espectre autista (TEA)<br>
+                • Dificultats específiques d'aprenentatge<br>
+                • Altes capacitats intel·lectuals<br>
+                • Trastorns del desenvolupament<br>
+                • Diversitat funcional</p>
+                
+                <p>El nostre equip multidisciplinar inclou psicòlegs, pedagogs i especialistes en educació especial que treballen de manera coordinada per oferir una atenció integral.</p>
+            </div>
+        </div>
+    `,
+
+    proves: `
+        <div class="section-header">
+            <div class="section-icon" style="background: linear-gradient(135deg, #dc2626, #991b1b);">🎯</div>
+            <div class="section-title">
+                <h2>Proves d'Accés</h2>
+                <p class="subtitle">Preparació especialitzada per superar amb èxit</p>
+            </div>
+        </div>
+
+        <div class="schedule">
+            <h3>⏰ Horaris</h3>
+            <div class="schedule-grid">
+                <div class="schedule-item">
+                    <strong>De dilluns a divendres:</strong><br>
+                    Matins de 9:30 h. a 13:30 h.<br>
+                    Tardes de 16:45 h a 20:45 h.
                 </div>
-
-                <div class="schedule">
-                    <h3>⏰ Horaris</h3>
-                    <div class="schedule-grid">
-                        <div class="schedule-item">
-                            <strong>De dilluns a divendres:</strong><br>
-                            Matins de 9:30 h. a 13:30 h.<br>
-                            Tardes de 16:45 h a 20:45 h.
-                        </div>
-                        <div class="schedule-item">
-                            <strong>Dissabtes:</strong><br>
-                            Matins de 10:00 h. a 13:00 h.
-                        </div>
-                    </div>
-                </div>
-
-                <div class="courses-grid">
-                    <div class="course-card" style="background: linear-gradient(135deg, #dc2626, #991b1b);">
-                        <h4>🎓 PAU +25</h4>
-                        <p>Si es tracta d'estudiar sempre és un bon moment. Al CES t'ho posem ben fàcil. Aquí trobaris tot el que necessites per arribar a la prova d'accés amb totes les d'aprovar! Programa d'estudis personalitzat segons les necessitats, avaluació contínua, classes de 2 a 4 persones, i un tutor personal especialitzat en cada matèria.</p>
-                        
-                        <p>A més, tu poses el teu ritme: quant de temps hi vols dedicar, quins dies, quines hores... Ara ja no tens excusa!</p>
-                        
-                        <p><strong>Requisits:</strong> Abans de matricular-se per primera vegada a qualsevol dels estudis universitaris, totes les persones que hagin obtingut el títol de batxillerat han de superar una prova d'accés a la universitat (PAU). L'objectiu d'aquestes és valorar la maduresa acadèmica, els coneixements i les competències adquirides en el batxillerat. Actualment hi ha dues convocatòries anuals, la ordinària (juny) i la extraordinària (setembre), i no hi ha límit de convocatòries per superar-les.</p>
-                        
-                        <p>Al CES oferim classes de preparació per les proves d'accés a aquest itinerari, en grups d'un màxim de quatre alumnes separats per àrees: lletres i ciències.</p>
-                    </div>
-
-                    <div class="course-card" style="background: linear-gradient(135deg, #7c3aed, #5b21b6);">
-                        <h4>📋 Cicles Formatius</h4>
-                        <p>La Formació Professional és una opció educativa ràpida i efectiva per tots els que busquen una sortida al món laboral amb pràctica i titulació oficial. Els cicles de formació professional es divideixen en dos graus: el grau mitjà i el grau superior. El primer proporciona el títol de tècnic/a i el segon el títol de tècnic/a superior.</p>
-                        
-                        <p>Al CES oferim classes de preparació per les proves d'accés a aquest itinerari, segons els temaris a nivell d'ESO o batxillerat, segons el grau. Els grups són d'un màxim de quatre alumnes separats per àrees: lletres i ciències.</p>
-                        
-                        <p><strong>Proves d'accés a Cicles Formatius de Grau Mitjà:</strong><br>
-                        • Requisit: Tenir 17 anys complerts<br>
-                        • Nivell: Equivalent a 3r d'ESO<br>
-                        • Àmbits: Comunicació, Social, Científic-tecnològic</p>
-                        
-                        <p><strong>Proves d'accés a Cicles Formatius de Grau Superior:</strong><br>
-                        • Requisit: Tenir 19 anys complerts (18 amb títol de tècnic)<br>
-                        • Nivell: Equivalent a Batxillerat<br>
-                        • Parts: Part comuna i part específica segons la família professional</p>
-                        
-                        <p>Podeu consultar els cicles formatius distribuïts en famílies professionals a la web del Departament d'Educació de la Generalitat de Catalunya.</p>
-                    </div>
+                <div class="schedule-item">
+                    <strong>Dissabtes:</strong><br>
+                    Matins de 10:00 h. a 13:00 h.
                 </div>
             </div>
-        `
-}
+        </div>
+
+        <div class="courses-grid two-columns">
+            <div class="course-card" style="background: linear-gradient(135deg, #dc2626, #991b1b);">
+                <h4>🎓 PAU +25</h4>
+                <p>Si es tracta d'estudiar sempre és un bon moment. Al CES t'ho posem ben fàcil. Aquí trobaràs tot el que necessites per arribar a la prova d'accés amb totes les d'aprovar! Programa d'estudis personalitzat segons les necessitats, avaluació contínua, classes de 2 a 4 persones, i un tutor personal especialitzat en cada matèria.</p>
+                
+                <p>A més, tu poses el teu ritme: quant de temps hi vols dedicar, quins dies, quines hores... Ara ja no tens excusa!</p>
+                
+                <p><strong>Requisits:</strong> Abans de matricular-se per primera vegada a qualsevol dels estudis universitaris, totes les persones que hagin obtingut el títol de batxillerat han de superar una prova d'accés a la universitat (PAU). L'objectiu d'aquestes és valorar la maduresa acadèmica, els coneixements i les competències adquirides en el batxillerat. Actualment hi ha dues convocatòries anuals, la ordinària (juny) i la extraordinària (setembre), i no hi ha límit de convocatòries per superar-les.</p>
+                
+                <p>Al CES oferim classes de preparació per les proves d'accés a aquest itinerari, en grups d'un màxim de quatre alumnes separats per àrees: lletres i ciències.</p>
+            </div>
+
+            <div class="course-card" style="background: linear-gradient(135deg, #7c3aed, #5b21b6);">
+                <h4>📋 Cicles Formatius</h4>
+                <p>La Formació Professional és una opció educativa ràpida i efectiva per tots els que busquen una sortida al món laboral amb pràctica i titulació oficial. Els cicles de formació professional es divideixen en dos graus: el grau mitjà i el grau superior. El primer proporciona el títol de tècnic/a i el segon el títol de tècnic/a superior.</p>
+                
+                <p>Al CES oferim classes de preparació per les proves d'accés a aquest itinerari, segons els temaris a nivell d'ESO o batxillerat, segons el grau. Els grups són d'un màxim de quatre alumnes separats per àrees: lletres i ciències.</p>
+                
+                <p><strong>Proves d'accés a Cicles Formatius de Grau Mitjà:</strong><br>
+                • Requisit: Tenir 17 anys complerts<br>
+                • Nivell: Equivalent a 3r d'ESO<br>
+                • Àmbits: Comunicació, Social, Científic-tecnològic</p>
+                
+                <p><strong>Proves d'accés a Cicles Formatius de Grau Superior:</strong><br>
+                • Requisit: Tenir 19 anys complerts (18 amb títol de tècnic)<br>
+                • Nivell: Equivalent a Batxillerat<br>
+                • Parts: Part comuna i part específica segons la família professional</p>
+                
+                <p>Podeu consultar els cicles formatius distribuïts en famílies professionals a la web del Departament d'Educació de la Generalitat de Catalunya.</p>
+            </div>
+        </div>
+
+    `
+};
