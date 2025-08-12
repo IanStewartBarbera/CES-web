@@ -177,37 +177,35 @@ main {
 
 /* Language Flags */
 .flag {
-    width: 40px;
-    height: 30px;
-    border-radius: 5px;
+    width: 30px; /* tamaño de icono */
+    height: 20px;
     display: inline-block;
     margin-right: 10px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 3px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
 }
 
-.flag.france { 
-    background: linear-gradient(to right, #0055a4 33%, white 33% 66%, #ef4135 66%); 
+.flag.france {
+    background-image: url('images/flag-fr.png');
 }
 
-.flag.uk { 
-    background: linear-gradient(45deg, #012169 25%, transparent 25%), 
-                linear-gradient(-45deg, #012169 25%, transparent 25%), 
-                linear-gradient(45deg, transparent 75%, #012169 75%), 
-                linear-gradient(-45deg, transparent 75%, #012169 75%), 
-                linear-gradient(to right, #c8102e, #c8102e); 
+.flag.uk {
+    background-image: url('images/flag-uk.png');
 }
 
-.flag.catalonia { 
-    background: linear-gradient(to bottom, 
-                #fcdd09 0%, #fcdd09 22.5%, 
-                #da020e 22.5%, #da020e 45%, 
-                #fcdd09 45%, #fcdd09 67.5%, 
-                #da020e 67.5%, #da020e 90%, 
-                #fcdd09 90%); 
+.flag.catalonia {
+    background-image: url('images/flag-cat.png');
 }
 
-.flag.germany { 
-    background: linear-gradient(to bottom, #000000 33%, #dd0000 33% 66%, #ffce00 66%); 
+.flag.germany {
+    background-image: url('images/flag-de.png');
+}
+
+.flag.spain {
+    background-image: url('images/flag-es.png');
 }
 
 /* Schedule Styles */

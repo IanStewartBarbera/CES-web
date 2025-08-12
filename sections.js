@@ -10,27 +10,38 @@ const sectionContent = {
         </div>
 
         <div class="courses-grid">
+            <!-- Català -->
             <div class="course-card">
-                <h4><span class="flag france"></span>Francès</h4>
-                <p>Tot i que és veritat que la llengua més demanada per les empreses a tot el món és l'anglès, el francès és un diferencial. Avui dia trobar professionals que parlin anglès d'una forma fluida no és tasca difícil; en canvi, professionals que parlin un francès d'alt nivell són més escassos. Existeixen gran quantitat de companyies d'origen francès que operen a nivell mundial i requereixen empleats que puguin comunicar-se directament, sense traductor, amb la casa central.</p>
-                
-                <p>El francès és idioma oficial a 33 països del món. A més, junt amb l'anglès, és l'únic idioma que es parla als cinc continents, ja sigui com a llengua materna, o com segon o tercer idioma. Saber parlar francès implica la possibilitat de comunicar-se amb més de 200 milions de francòfones, i els més de 72 milions d'estudiants existents a nivell mundial, segons l'Organització Internacional de Francofonia.</p>
+                <h4><span class="flag catalonia"></span>Català</h4>
+                <p>Al CES oferim cursos de català per estrangers, per persones que vulguin millorar els seus coneixements i per tots els que hagin de superar un examen oficial de coneixements de la llengua, ja sigui per presentar-se a oposicions o per promocionar-se al seu treball.</p>
 
-                <h4>Diplomes DELF i DALF</h4>
-                <p>Els diplomes DELF (Diplôme d'Études en Langue Française) i DALF (Diplôme Approfondi de Langue Française) són diplomes oficials de la llengua francesa. Aquests diplomes estan dirigits a persones de nacionalitat no francesa. A través dels exàmens DELF i DALF s'avaluen les aptituds, el domini global de la llengua i les capacitats de comunicació de l'alumne/a en circumstàncies habituals de la vida quotidiana.</p>
+                <p>El català és una de les tres llengües oficials dins l'Estat Espanyol, i l'estàndard als òrgans administratius de Catalunya. Per aquest motiu, tot aquell que vulgui opositar a un treball sota les competències d'un ajuntament, diputació o la Generalitat de Catalunya, ha de demostrar el coneixement d'aquest, ja sigui a través d'una prova de nivell específica o presentant una titulació oficial.</p>
 
-                <p><strong>- DELF 1er grau: 4 mòduls (A1 a A4)</strong><br>
-                Aquest diploma equival a competències bàsiques en Francès. Certifica que el seu titular és capaç de comunicar-se en situacions quotidianes.</p>
+                <p>Aquests certificats, i els seus equivalents, estan homologats segons els criteris de la Secretaria de Política Lingüística, i es classifiquen en aquests nivells:</p>
 
-                <p><strong>- DELF 2º grau: 2 mòduls (A5 a A6)</strong><br>
-                L'alumne/a que aprovi aquests dos mòduls té un coneixement general de la societat francesa. És capaç d'analitzar un text i resumir-lo, ja sigui oralment com per escrit.</p>
+                <p><strong>- CERTIFICAT A: coneixements orals bàsics</strong><br>
+                La finalitat de la prova corresponent a aquest certificat és avaluar si l'examinand/a ha assolit un domini bàsic i eficaç de l'ús de la llengua que li permet afrontar satisfactòriament les tasques i les situacions de comunicació pròpies de la vida quotidiana.</p>
 
-                <p><strong>- DALF: 4 mòduls (B1 a B4)</strong><br>
-                Aquest diploma certifica un coneixement ampli de l'idioma. L'alumne/a està capacitat per a dominar els diferents nivells d'expressió (resum, síntesi, anàlisi...) en un camp d'especialització que ell mateix escull.</p>
+                <p><strong>- CERTIFICAT B: coneixements elementals</strong><br>
+                La finalitat de la prova corresponent a aquest certificat és avaluar si l'examinand/a té el nivell elemental de domini del català per comunicar-se oralment i per escrit en situacions quotidianes.</p>
 
-                <p>Hi ha tres convocatòries a l'any: febrer, juny i setembre, segons els Centres.</p>
+                <p><strong>- CERTIFICAT C: coneixements mitjans</strong><br>
+                La finalitat de la prova corresponent a aquest certificat és avaluar si l'examinand/a té un domini suficient de l'ús de la llengua general, en la varietat estàndard, per comunicar-se satisfactòriament en les situacions comunicatives que requereixen l'ús d'un llenguatge mitjannament formal o formal.</p>
             </div>
 
+            <!-- Castellà -->
+            <div class="course-card">
+                <h4><span class="flag spain"></span>Castellà</h4>
+                <p>Oferim cursos de castellà adaptats a tots els nivells, des de principiants fins a avançats, per a persones estrangeres que vulguin aprendre o millorar el seu domini de la llengua. Les classes estan dissenyades per desenvolupar totes les competències lingüístiques: expressió oral, comprensió auditiva, lectura i escriptura.</p>
+
+                <p>El castellà és una de les llengües més parlades del món, amb més de 500 milions de parlants nadius i oficial a més de 20 països. Dominar-lo obre oportunitats laborals, acadèmiques i culturals arreu del món, així com facilita la comunicació en viatges i negocis internacionals.</p>
+
+                <p>Segons l'Instituto Cervantes, el castellà és també la segona llengua materna més parlada del món per nombre de parlants i la tercera en comunicació internacional a Internet.</p>
+
+                <p>Els nostres cursos preparen per a exàmens oficials reconeguts internacionalment, com el <strong>DELE</strong> (Diplomas de Español como Lengua Extranjera) i el <strong>SIELE</strong> (Servicio Internacional de Evaluación de la Lengua Española), que certifiquen el nivell de competència lingüística segons el Marc Europeu Comú de Referència (A1-C2).</p>
+            </div>
+
+            <!-- Anglès -->
             <div class="course-card">
                 <h4><span class="flag uk"></span>Anglès</h4>
                 <p>Parlar la llengua anglesa obre portes. Qui la domina, no només pot accedir a bones oportunitats laborals, sinó que a més té la possibilitat d'estar actualitzat i llegir de primera mà llibres especialitzats, visitar i entendre els llocs més importants d'Internet, veure i gaudir les pel·lícules que tot just surten al mercat i, per descomptat, l'avantatge de moure's per qualsevol part del món amb el domini de l'idioma més internacional.</p>
@@ -53,24 +64,29 @@ const sectionContent = {
                 En aquest nivell l'alumne s'acosta a l'estàndard d'anglès d'un parlant nadiu culte i s'espera que pugui afrontar quasi bé totes les situacions d'un entorn angloparlant.</p>
             </div>
 
+            <!-- Francès -->
             <div class="course-card">
-                <h4><span class="flag catalonia"></span>Català</h4>
-                <p>Al CES oferim cursos de català per estrangers, per persones que vulguin millorar els seus coneixements i per tots els que hagin de superar un examen oficial de coneixements de la llengua, ja sigui per presentar-se a oposicions o per promocionar-se al seu treball.</p>
+                <h4><span class="flag france"></span>Francès</h4>
+                <p>Tot i que és veritat que la llengua més demanada per les empreses a tot el món és l'anglès, el francès és un diferencial. Avui dia trobar professionals que parlin anglès d'una forma fluida no és tasca difícil; en canvi, professionals que parlin un francès d'alt nivell són més escassos. Existeixen gran quantitat de companyies d'origen francès que operen a nivell mundial i requereixen empleats que puguin comunicar-se directament, sense traductor, amb la casa central.</p>
+                
+                <p>El francès és idioma oficial a 33 països del món. A més, junt amb l'anglès, és l'únic idioma que es parla als cinc continents, ja sigui com a llengua materna, o com segon o tercer idioma. Saber parlar francès implica la possibilitat de comunicar-se amb més de 200 milions de francòfones, i els més de 72 milions d'estudiants existents a nivell mundial, segons l'Organització Internacional de Francofonia.</p>
 
-                <p>El català és una de les tres llengües oficials dins l'Estat Espanyol, i l'estàndard als òrgans administratius de Catalunya. Per aquest motiu, tot aquell que vulgui opositar a un treball sota les competències d'un ajuntament, diputació o la Generalitat de Catalunya, ha de demostrar el coneixement d'aquest, ja sigui a través d'una prova de nivell específica o presentant una titulació oficial.</p>
+                <h4>Diplomes DELF i DALF</h4>
+                <p>Els diplomes DELF (Diplôme d'Études en Langue Française) i DALF (Diplôme Approfondi de Langue Française) són diplomes oficials de la llengua francesa. Aquests diplomes estan dirigits a persones de nacionalitat no francesa. A través dels exàmens DELF i DALF s'avaluen les aptituds, el domini global de la llengua i les capacitats de comunicació de l'alumne/a en circumstàncies habituals de la vida quotidiana.</p>
 
-                <p>Aquests certificats, i els seus equivalents, estan homologats segons els criteris de la Secretaria de Política Lingüística, i es classifiquen en aquests nivells:</p>
+                <p><strong>- DELF 1er grau: 4 mòduls (A1 a A4)</strong><br>
+                Aquest diploma equival a competències bàsiques en Francès. Certifica que el seu titular és capaç de comunicar-se en situacions quotidianes.</p>
 
-                <p><strong>- CERTIFICAT A: coneixements orals bàsics</strong><br>
-                La finalitat de la prova corresponent a aquest certificat és avaluar si l'examinand/a ha assolit un domini bàsic i eficaç de l'ús de la llengua que li permet afrontar satisfactòriament les tasques i les situacions de comunicació pròpies de la vida quotidiana.</p>
+                <p><strong>- DELF 2º grau: 2 mòduls (A5 a A6)</strong><br>
+                L'alumne/a que aprovi aquests dos mòduls té un coneixement general de la societat francesa. És capaç d'analitzar un text i resumir-lo, ja sigui oralment com per escrit.</p>
 
-                <p><strong>- CERTIFICAT B: coneixements elementals</strong><br>
-                La finalitat de la prova corresponent a aquest certificat és avaluar si l'examinand/a té el nivell elemental de domini del català per comunicar-se oralment i per escrit en situacions quotidianes.</p>
+                <p><strong>- DALF: 4 mòduls (B1 a B4)</strong><br>
+                Aquest diploma certifica un coneixement ampli de l'idioma. L'alumne/a està capacitat per a dominar els diferents nivells d'expressió (resum, síntesi, anàlisi...) en un camp d'especialització que ell mateix escull.</p>
 
-                <p><strong>- CERTIFICAT C: coneixements mitjans</strong><br>
-                La finalitat de la prova corresponent a aquest certificat és avaluar si l'examinand/a té un domini suficient de l'ús de la llengua general, en la varietat estàndard, per comunicar-se satisfactòriament en les situacions comunicatives que requereixen l'ús d'un llenguatge mitjannament formal o formal.</p>
+                <p>Hi ha tres convocatòries a l'any: febrer, juny i setembre, segons els Centres.</p>
             </div>
 
+            <!-- Alemany -->
             <div class="course-card">
                 <h4><span class="flag germany"></span>Alemany</h4>
                 <p>Alemanya és el líder econòmic de la Unió Europea, i una de les economies més sòlides i importants a nivell mundial. Per això, l'alemany és avui dia un llenguatge clau als negocis d'alt nivell i al mercat laboral. I no només això: més de 100 milions de persones parlen l'alemany, i a part del seu país d'origen, també es parla amb normalitat a Àustria i Suïssa.</p>
@@ -90,6 +106,7 @@ const sectionContent = {
                 Els dos diplomes són reconeguts per totes les universitats alemanyes com titulació indispensable per cursar estudis universitaris.</p>
             </div>
         </div>
+
     `,
 
     informatica: `
