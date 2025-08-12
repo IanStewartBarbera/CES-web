@@ -426,10 +426,12 @@ main {
     align-items: center;
     gap: 8px;
     color: white;
-    padding: 10px 15px;
+    padding: 8px 15px; /* define la altura del botón */
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
+    height: 40px; /* altura fija del botón */
+    box-sizing: border-box;
 }
 
 .whatsapp-btn {
@@ -441,8 +443,8 @@ main {
 }
 
 .btn-icon {
-    width: 20px;
-    height: 20px;
+    height: 100%;
+    width: auto;
 }
 
 .whatsapp-btn:hover {
