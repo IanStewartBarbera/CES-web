@@ -9,21 +9,6 @@ const sectionContent = {
             </div>
         </div>
 
-        <div class="schedule">
-            <h3>⏰ Horaris</h3>
-            <div class="schedule-grid">
-                <div class="schedule-item">
-                    <strong>De dilluns a divendres:</strong><br>
-                    Matins de 9:30 h. a 13:30 h.<br>
-                    Tardes de 16:45 h a 20:45 h.
-                </div>
-                <div class="schedule-item">
-                    <strong>Dissabtes:</strong><br>
-                    Matins de 10:00 h. a 13:00 h.
-                </div>
-            </div>
-        </div>
-
         <div class="courses-grid">
             <div class="course-card">
                 <h4><span class="flag france"></span>Francès</h4>
@@ -113,21 +98,6 @@ const sectionContent = {
             <div class="section-title">
                 <h2>Informàtica</h2>
                 <p class="subtitle">Tecnologies modernes i programació</p>
-            </div>
-        </div>
-
-        <div class="schedule">
-            <h3>⏰ Horaris</h3>
-            <div class="schedule-grid">
-                <div class="schedule-item">
-                    <strong>De dilluns a divendres:</strong><br>
-                    Matins de 9:30 h. a 13:30 h.<br>
-                    Tardes de 16:45 h a 20:45 h.
-                </div>
-                <div class="schedule-item">
-                    <strong>Dissabtes:</strong><br>
-                    Matins de 10:00 h. a 13:00 h.
-                </div>
             </div>
         </div>
 
@@ -249,21 +219,6 @@ const sectionContent = {
             </div>
         </div>
 
-        <div class="schedule">
-            <h3>⏰ Horaris</h3>
-            <div class="schedule-grid">
-                <div class="schedule-item">
-                    <strong>De dilluns a divendres:</strong><br>
-                    Matins de 9:30 h. a 13:30 h.<br>
-                    Tardes de 16:45 h a 20:45 h.
-                </div>
-                <div class="schedule-item">
-                    <strong>Dissabtes:</strong><br>
-                    Matins de 10:00 h. a 13:00 h.
-                </div>
-            </div>
-        </div>
-
         <div class="courses-grid">
             <div class="course-card" style="background: linear-gradient(135deg, #3b82f6, #1d4ed8);">
                 <h4>👶 Educació Primària</h4>
@@ -359,21 +314,6 @@ const sectionContent = {
             <div class="section-title">
                 <h2>Proves d'Accés</h2>
                 <p class="subtitle">Preparació especialitzada per superar amb èxit</p>
-            </div>
-        </div>
-
-        <div class="schedule">
-            <h3>⏰ Horaris</h3>
-            <div class="schedule-grid">
-                <div class="schedule-item">
-                    <strong>De dilluns a divendres:</strong><br>
-                    Matins de 9:30 h. a 13:30 h.<br>
-                    Tardes de 16:45 h a 20:45 h.
-                </div>
-                <div class="schedule-item">
-                    <strong>Dissabtes:</strong><br>
-                    Matins de 10:00 h. a 13:00 h.
-                </div>
             </div>
         </div>
 
