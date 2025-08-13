@@ -242,11 +242,11 @@ const sectionContent = {
                 <p data-i18n="reforcament.primary.intro">El reforç escolar en educació primària és fonamental per establir unes bases sòlides d'aprenentatge. Els nostres professors especialitzats ofereixen suport individualitzat per ajudar els alumnes a superar les seves dificultats i desenvolupar hàbits d'estudi adequats.</p>
                 
                 <p><strong data-i18n="reforcament.primary.areas_title">Àrees que treballem:</strong></p>
-                <p data-i18n="reforcament.primary.areas_list">• Matemàtiques bàsiques i resolució de problemes<br>
-                • Llengua catalana i castellana<br>
-                • Comprensió lectora i expressió escrita<br>
-                • Ciències naturals i socials<br>
-                • Tècniques d'estudi i organització</p>
+                <p data-i18n="reforcament.primary.area1">• Matemàtiques bàsiques i resolució de problemes<br></p>
+                <p data-i18n="reforcament.primary.area2">• Llengua catalana i castellana<br></p>
+                <p data-i18n="reforcament.primary.area3">• Comprensió lectora i expressió escrita<br></p>
+                <p data-i18n="reforcament.primary.area4">• Ciències naturals i socials<br></p>
+                <p data-i18n="reforcament.primary.area5">• Tècniques d'estudi i organització</p>
                 
                 <p data-i18n="reforcament.primary.methodology">Les classes es desenvolupen en grups reduïts o de manera individual, adaptant-se al ritme i necessitats específiques de cada alumne. Utilitzem metodologies dinàmiques i materials didàctics atractius per mantenir la motivació dels més petits.</p>
             </div>
