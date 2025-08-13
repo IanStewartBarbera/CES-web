@@ -88,11 +88,11 @@
         <div class="container">
             <div class="nav-container">
                 <ul class="nav-menu">
-                    <li class="nav-item"><a href="#" class="nav-link active" onclick="showSection('centre')" data-i18n="nav.centre">El CES</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link" onclick="showSection('idiomes')" data-i18n="nav.idiomes">Idiomes</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link" onclick="showSection('informatica')" data-i18n="nav.informatica">Informàtica</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link" onclick="showSection('reforcament')" data-i18n="nav.reforcament">Reforç escolar</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link" onclick="showSection('proves')" data-i18n="nav.proves">Proves d'accés</a></li>
+                    <li class="nav-item"><a href="#centre" class="nav-link active" onclick="showSection('centre')" data-i18n="nav.centre">El CES</a></li>
+                    <li class="nav-item"><a href="#idiomes" class="nav-link" onclick="showSection('idiomes')" data-i18n="nav.idiomes">Idiomes</a></li>
+                    <li class="nav-item"><a href="#informatica" class="nav-link" onclick="showSection('informatica')" data-i18n="nav.informatica">Informàtica</a></li>
+                    <li class="nav-item"><a href="#reforcament" class="nav-link" onclick="showSection('reforcament')" data-i18n="nav.reforcament">Reforç escolar</a></li>
+                    <li class="nav-item"><a href="#proves" class="nav-link" onclick="showSection('proves')" data-i18n="nav.proves">Proves d'accés</a></li>
                 </ul>
             </div>
         </div>
@@ -136,7 +136,7 @@
                         <div class="course-item">
                             <span>
                                 <strong data-i18n="courses.reinforcement">Reforç</strong><br>
-                                <img src="images/icon-books.jpg" alt="Tècniques d'estudi" class="inline-icon">
+                                <img src="images/icon-books.png" alt="Tècniques d'estudi" class="inline-icon">
                             </span>
                             <p data-i18n="courses.reinforcement_levels">Primària, ESO, Batxillerat, Selectivitat, Universitat</p>
                         </div>
@@ -144,7 +144,7 @@
                         <div class="course-item">
                             <span>
                                 <strong data-i18n="courses.study_techniques">Tècniques d'estudi</strong><br>
-                                <img src="images/icon-pencil.jpg" alt="Tècniques d'estudi" class="inline-icon">
+                                <img src="images/icon-pencil.png" alt="Tècniques d'estudi" class="inline-icon">
                             </span>
                             <span data-i18n="courses.study_techniques_desc">Comprensió lectora, Preparació d'exàmens</span>
                         </div>
@@ -311,6 +311,7 @@
             const savedLang = localStorage.getItem('selectedLang') || 'cat';
             translatePage(savedLang);
         });
+
     </script>
 </body>
 </html>

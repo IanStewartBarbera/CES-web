@@ -136,7 +136,7 @@ const translations = {
         "informatica.programming.vba_for": "per Aplicacions",
         "informatica.programming.vba_desc": "Un llenguatge compacte i simple, orientat a programar tasques de la suite ofimàtica Microsoft Office. Va ser dissenyat per que usuaris sense experiència i coneixement en l'àmbit de la programació puguessin desenvolupar aplicacions bàsiques.",
 
-        "informatica.web.title": "🎨 Disseny Web",
+        "informatica.web.title": "🌐 Disseny Web",
         "informatica.web.intro": "Les noves tecnologies han generat nous espais dins del món laboral, y una de les figures més rellevants i amb més projecció de futur es la de dissenyador web. Un ofici que li permetrà treballar en tot tipo d'empreses, i en algunes ocasions des de casa.",
         "informatica.web.dreamweaver_desc": "Considerat un dels programes estàndard per a la generació de llocs web, aquest programa ens permetrà endinsarnos dins del llenguatge HTML amb facilitat. Amb aquest curs s'adquireixen els coneixements per crear pàgines web bàsiques.",
         "informatica.web.php_desc": "El següent nivell: pàgines web dinàmiques que actualitzen automàticament el seu contingut segons uns paràmetres determinats. Amb aquest curs anirem més enllà i aprendrem a fer llocs web d'estructura més complexa, com per exemple fòrums, portals o blogs.",
@@ -231,7 +231,7 @@ const translations = {
         //Proves
         "proves.title": "Proves d'Accés",
         "proves.subtitle": "Preparació especialitzada per superar amb èxit",
-        "proves.pau25.title": "🎓 PAU +25",
+        "proves.pau25.title": "🥇 PAU +25",
         "proves.pau25.intro": "Si es tracta d'estudiar sempre és un bon moment. Al CES t'ho posem ben fàcil. Aquí trobaràs tot el que necessites per arribar a la prova d'accés amb totes les d'aprovar! Programa d'estudis personalitzat segons les necessitats, avaluació contínua, classes de 2 a 4 persones, i un tutor personal especialitzat en cada matèria.",
         "proves.pau25.flexibility": "A més, tu poses el teu ritme: quant de temps hi vols dedicar, quins dies, quines hores... Ara ja no tens excusa!",
         "proves.pau25.requirements": "Requisits: Abans de matricular-se per primera vegada a qualsevol dels estudis universitaris, totes les persones que hagin obtingut el títol de batxillerat han de superar una prova d'accés a la universitat (PAU). L'objectiu d'aquestes és valorar la maduresa acadèmica, els coneixements i les competències adquirides en el batxillerat. Actualment hi ha dues convocatòries anuals, la ordinària (juny) i la extraordinària (setembre), i no hi ha límit de convocatòries per superar-les.",
@@ -386,7 +386,7 @@ const translations = {
         "informatica.programming.vba_for": "para Aplicaciones",
         "informatica.programming.vba_desc": "Un lenguaje compacto y simple, orientado a programar tareas de la suite ofimática Microsoft Office. Fue diseñado para que usuarios sin experiencia y conocimiento en el ámbito de la programación pudieran desarrollar aplicaciones básicas.",
 
-        "informatica.web.title": "🎨 Diseño Web",
+        "informatica.web.title": "🌐 Diseño Web",
         "informatica.web.intro": "Las nuevas tecnologías han generado nuevos espacios dentro del mundo laboral, y una de las figuras más relevantes y con mayor proyección de futuro es la de diseñador web. Un oficio que le permitirá trabajar en todo tipo de empresas, y en algunas ocasiones desde casa.",
         "informatica.web.dreamweaver_desc": "Considerado uno de los programas estándar para la generación de sitios web, este programa nos permitirá adentrarnos en el lenguaje HTML con facilidad. Con este curso se adquieren los conocimientos para crear páginas web básicas.",
         "informatica.web.php_desc": "El siguiente nivel: páginas web dinámicas que actualizan automáticamente su contenido según unos parámetros determinados. Con este curso iremos más allá y aprenderemos a hacer sitios web de estructura más compleja, como foros, portales o blogs.",
@@ -481,7 +481,7 @@ const translations = {
         //Pruebas
         "proves.title": "Pruebas de Acceso",
         "proves.subtitle": "Preparación especializada para superar con éxito",
-        "proves.pau25.title": "🎓 PAU +25",
+        "proves.pau25.title": "🥇 PAU +25",
         "proves.pau25.intro": "Si se trata de estudiar, siempre es un buen momento. En el CES te lo ponemos muy fácil. Aquí encontrarás todo lo que necesitas para llegar a la prueba de acceso con todas las de aprobar. Programa de estudios personalizado según las necesidades, evaluación continua, clases de 2 a 4 personas y un tutor personal especializado en cada materia.",
         "proves.pau25.flexibility": "Además, tú pones tu ritmo: cuánto tiempo quieres dedicar, qué días, qué horas… ¡Ahora ya no tienes excusa!",
         "proves.pau25.requirements": "Requisitos: Antes de matricularse por primera vez en cualquiera de los estudios universitarios, todas las personas que hayan obtenido el título de bachillerato deben superar una prueba de acceso a la universidad (PAU). El objetivo de estas pruebas es valorar la madurez académica, los conocimientos y las competencias adquiridas en el bachillerato. Actualmente hay dos convocatorias anuales, la ordinaria (junio) y la extraordinaria (septiembre), y no hay límite de convocatorias para superarlas.",

@@ -17,7 +17,6 @@ function showSection(sectionName) {
 
             // Aplicar traducción al contenido recién insertado
             const savedLang = localStorage.getItem('selectedLang') || 'cat';
-            console.log(savedLang);
             translatePage(savedLang);
         }
         

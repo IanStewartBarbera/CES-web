@@ -11,7 +11,7 @@ const sectionContent = {
 
         <div class="courses-grid">
             <!-- Català -->
-            <div class="course-card">
+            <div class="course-card" style="background: linear-gradient(135deg, #6366f1, #8b5cf6);">
                 <h4><span class="flag catalonia"></span><span data-i18n="idiomes.catalan.title">Català</span></h4>
                 <p data-i18n="idiomes.catalan.intro">Al CES oferim cursos de català per estrangers, per persones que vulguin millorar els seus coneixements i per tots els que hagin de superar un examen oficial de coneixements de la llengua, ja sigui per presentar-se a oposicions o per promocionar-se al seu treball.</p>
 
@@ -30,7 +30,7 @@ const sectionContent = {
             </div>
 
             <!-- Castellà -->
-            <div class="course-card">
+            <div class="course-card" style="background: linear-gradient(135deg, #10b981, #059669);">
                 <h4><span class="flag spain"></span><span data-i18n="idiomes.spanish.title">Castellà</span></h4>
                 <p data-i18n="idiomes.spanish.intro">Oferim cursos de castellà adaptats a tots els nivells, des de principiants fins a avançats, per a persones estrangeres que vulguin aprendre o millorar el seu domini de la llengua. Les classes estan dissenyades per desenvolupar totes les competències lingüístiques: expressió oral, comprensió auditiva, lectura i escriptura.</p>
 
@@ -42,7 +42,7 @@ const sectionContent = {
             </div>
 
             <!-- Anglès -->
-            <div class="course-card">
+            <div class="course-card" style="background: linear-gradient(135deg, #f59e0b, #d97706);">
                 <h4><span class="flag uk"></span><span data-i18n="idiomes.english.title">Anglès</span></h4>
                 <p data-i18n="idiomes.english.intro">Parlar la llengua anglesa obre portes. Qui la domina, no només pot accedir a bones oportunitats laborals, sinó que a més té la possibilitat d'estar actualitzat i llegir de primera mà llibres especialitzats, visitar i entendre els llocs més importants d'Internet, veure i gaudir les pel·lícules que tot just surten al mercat i, per descomptat, l'avantatge de moure's per qualsevol part del món amb el domini de l'idioma més internacional.</p>
 
@@ -65,7 +65,7 @@ const sectionContent = {
             </div>
 
             <!-- Francès -->
-            <div class="course-card">
+            <div class="course-card" style="background: linear-gradient(135deg, #06b6d4, #0891b2);">
                 <h4><span class="flag france"></span><span data-i18n="idiomes.french.title">Francès</span></h4>
                 <p data-i18n="idiomes.french.intro">Tot i que és veritat que la llengua més demanada per les empreses a tot el món és l'anglès, el francès és un diferencial. Avui dia trobar professionals que parlin anglès d'una forma fluida no és tasca difícil; en canvi, professionals que parlin un francès d'alt nivell són més escassos. Existeixen gran quantitat de companyies d'origen francès que operen a nivell mundial i requereixen empleats que puguin comunicar-se directament, sense traductor, amb la casa central.</p>
                 
@@ -87,7 +87,7 @@ const sectionContent = {
             </div>
 
             <!-- Alemany -->
-            <div class="course-card">
+            <div class="course-card" style="background: linear-gradient(135deg, #ef4444, #dc2626);">
                 <h4><span class="flag germany"></span><span data-i18n="idiomes.german.title">Alemany</span></h4>
                 <p data-i18n="idiomes.german.intro">Alemanya és el líder econòmic de la Unió Europea, i una de les economies més sòlides i importants a nivell mundial. Per això, l'alemany és avui dia un llenguatge clau als negocis d'alt nivell i al mercat laboral. I no només això: més de 100 milions de persones parlen l'alemany, i a part del seu país d'origen, també es parla amb normalitat a Àustria i Suïssa.</p>
 
@@ -199,22 +199,6 @@ const sectionContent = {
             <div class="course-card" style="background: linear-gradient(135deg, #f97316, #ea580c);">
                 <h4 data-i18n="informatica.games.title">🎮 Disseny de Videojocs</h4>
                 <p data-i18n="informatica.games.intro">Has pensat mai en fer el teu propi videojoc? Saps que avui dia, més que mai, està al teu abast? El nostre curs et proporcionarà tot el que necessites:</p>
-
-                <div class="programming-track">
-                    <div class="track-diagram">
-                        <div class="track-node programming"><span data-i18n="informatica.games.programming_track">Programació</span> C<br><small>Code→Blocks</small></div>
-                        <div style="color: white;">→</div>
-                        <div class="track-node android">Apps Android<br><small>Java S.E<br>App Inventor<br>Unity Android</small></div>
-                    </div>
-                    <div class="track-diagram">
-                        <div style="color: transparent;">→</div>
-                        <div class="track-node design2d"><span data-i18n="informatica.games.design_2d_track">Disseny</span> 2D<br><small>Adobe Flash<br>Unity 2d<br>Rpg Maker</small></div>
-                    </div>
-                    <div class="track-diagram">
-                        <div style="color: transparent;">→</div>
-                        <div class="track-node design3d"><span data-i18n="informatica.games.design_3d_track">Disseny</span> 3D<br><small>Blender<br>Unity<br>3d Studio Max</small></div>
-                    </div>
-                </div>
 
                 <p><strong data-i18n="informatica.games.programming_title">Programació:</strong> <span data-i18n="informatica.games.programming_desc">És imprescindible que l'alumne aprengui i domini les principals característiques i funcions del llenguatge C per tal d'aplicar-lo en la creació de videojocs.</span></p>
 
