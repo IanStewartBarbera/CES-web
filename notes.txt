@@ -3,3 +3,29 @@ telefon
 Instagram
 mes xarxes socials?
 logo whats i posar Instagram link amb Instagram logo
+provar open graph
+tecniques d'estudi, logopedia, necessitats especials?
+const btnCat = document.getElementById('btn-cat');
+const btnEs = document.getElementById('btn-es');
+const translatableElements = document.querySelectorAll('[data-i18n]');
+
+console.log(translatableElements);
+function translate(lang) {
+    translatableElements.forEach(el => {
+        const key = el.dataset.i18n;
+        if(translations[key]) {
+            // Aplicar fade-in
+            el.classList.remove('fade-in');
+            void el.offsetWidth; // reflow para reiniciar animación
+            el.textContent = translations[key][lang] || el.textContent;
+            el.classList.add('fade-in');
+        }
+    });
+
+    // Guardar la selección en localStorage
+    localStorage.setItem('selectedLang', lang);
+
+    // Botones activos
+    btnCat.classList.toggle('active', lang === 'cat');
+    btnEs.classList.toggle('active', lang === 'es');
+}

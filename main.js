@@ -14,6 +14,11 @@ function showSection(sectionName) {
         // Si es una sección que no sea 'centre', cargar contenido dinámicamente
         if (sectionName !== 'centre' && sectionContent[sectionName]) {
             targetSection.innerHTML = sectionContent[sectionName];
+
+            // Aplicar traducción al contenido recién insertado
+            const savedLang = localStorage.getItem('selectedLang') || 'cat';
+            console.log(savedLang);
+            translatePage(savedLang);
         }
         
         // Reiniciar animación

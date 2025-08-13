@@ -36,7 +36,7 @@
     "name": "Centre d'Estudis Sabadell",
     "alternateName": "CES",
     "description": "Centre de formació acadèmica especialitzat en idiomes, reforç escolar i noves tecnologies.",
-    "url": "https://www.centredestudissabadell.com",
+    "url": "https://www.centre-estudis-sabadell.com/",
     "telephone": "+34 630 292 970",
     "email": "info@centredestudissabadell.com",
     "address": {
@@ -59,7 +59,7 @@
     ],
     "areaServed": "Sabadell",
     "sameAs": [
-        "https://www.instagram.com/ces_sabadell"
+        "https://www.instagram.com/centre_estudis_sabadell"
     ]
     }
     </script>
@@ -74,8 +74,10 @@
                     <div class="logo-icon">CES</div>
                     <div class="logo-text">
                         <h1 data-i18n="header.title">Centre d'Estudis Sabadell</h1>
-                        <button id="btn-cat">Català</button>
-                        <button id="btn-es">Castellano</button>
+                            <div class="language-switcher">
+                                <button id="btn-cat" data-i18n="language.catalan">Català</button>
+                                <button id="btn-es" data-i18n="language.spanish">Castellano</button>
+                            </div>
                     </div>
                 </div>
             </div>
@@ -86,11 +88,11 @@
         <div class="container">
             <div class="nav-container">
                 <ul class="nav-menu">
-                    <li class="nav-item"><a href="#" class="nav-link active" onclick="showSection('centre')">El CES</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link" onclick="showSection('idiomes')">Idiomes</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link" onclick="showSection('informatica')">Informàtica</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link" onclick="showSection('reforcament')">Reforç escolar</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link" onclick="showSection('proves')">Proves d'accés</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link active" onclick="showSection('centre')" data-i18n="nav.centre">El CES</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link" onclick="showSection('idiomes')" data-i18n="nav.idiomes">Idiomes</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link" onclick="showSection('informatica')" data-i18n="nav.informatica">Informàtica</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link" onclick="showSection('reforcament')" data-i18n="nav.reforcament">Reforç escolar</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link" onclick="showSection('proves')" data-i18n="nav.proves">Proves d'accés</a></li>
                 </ul>
             </div>
         </div>
@@ -103,8 +105,8 @@
                 <div class="section-header">
                     <div class="section-icon" style="background: linear-gradient(135deg, #4f46e5, #7c3aed);">🏢</div>
                     <div class="section-title">
-                        <h2>El Centre</h2>
-                        <p class="subtitle">Formació acadèmica i professional especialitzada</p>
+                        <h2 data-i18n="section.title">El Centre</h2>
+                        <p class="subtitle" data-i18n="section.subtitle">Formació acadèmica i professional especialitzada</p>
                     </div>
                 </div>
 
@@ -118,38 +120,38 @@
 
                     <!-- Texto con iconos -->
                     <div class="courses-text">
-                        <h2>Cursos intensius d'aprenentatge</h2>
-                        <h3>Tots els nivells i edats</h3>
-                        <p class="subtitle"> Cursos a mida - Grups reduïts </p>
+                        <h2 data-i18n="courses.main_title">Cursos intensius d'aprenentatge</h2>
+                        <h3 data-i18n="courses.all_levels">Tots els nivells i edats</h3>
+                        <p class="subtitle" data-i18n="courses.custom_subtitle">Cursos a mida - Grups reduïts</p>
 
                         <div class="course-item">
-                            <strong>Idiomes (Speaking, Intensius, Gramàtica) </strong><br>
+                            <strong data-i18n="courses.languages">Idiomes (Speaking, Intensius, Gramàtica)</strong><br>
                             <span>
-                                <img src="images/flag-uk.png" alt="Anglès" class="inline-icon-flags"> Anglès 
-                                <img src="images/flag-fr.png" alt="Francès" class="inline-icon-flags"> Francès 
-                                <img src="images/flag-de.png" alt="Alemany" class="inline-icon-flags"> Alemany
+                                <img src="images/flag-uk.png" alt="Anglès" class="inline-icon-flags"> <span data-i18n="courses.english">Anglès</span>
+                                <img src="images/flag-fr.png" alt="Francès" class="inline-icon-flags"> <span data-i18n="courses.french">Francès</span>
+                                <img src="images/flag-de.png" alt="Alemany" class="inline-icon-flags"> <span data-i18n="courses.german">Alemany</span>
                             </span>
                         </div>
 
                         <div class="course-item">
                             <span>
-                                <strong>Reforç</strong><br>
+                                <strong data-i18n="courses.reinforcement">Reforç</strong><br>
                                 <img src="images/icon-books.jpg" alt="Tècniques d'estudi" class="inline-icon">
                             </span>
-                            Primària, ESO, Batxillerat, Selectivitat, Universitat
+                            <p data-i18n="courses.reinforcement_levels">Primària, ESO, Batxillerat, Selectivitat, Universitat</p>
                         </div>
 
                         <div class="course-item">
                             <span>
-                                <strong>Tècniques d'estudi</strong><br>
+                                <strong data-i18n="courses.study_techniques">Tècniques d'estudi</strong><br>
                                 <img src="images/icon-pencil.jpg" alt="Tècniques d'estudi" class="inline-icon">
                             </span>
-                            Comprensió lectora, Preparació d'exàmens
+                            <span data-i18n="courses.study_techniques_desc">Comprensió lectora, Preparació d'exàmens</span>
                         </div>
 
                         <div class="course-item">
                             <span>
-                                <strong>Disseny</strong><br>
+                                <strong data-i18n="courses.design">Disseny</strong><br>
                                 <img src="images/icon-ai.png" alt="Illustrator" class="inline-icon">
                                 <img src="images/icon-id.png" alt="InDesign" class="inline-icon">
                                 <img src="images/icon-ps.png" alt="Photoshop" class="inline-icon">
@@ -159,7 +161,7 @@
 
                         <div class="course-item">
                             <span>
-                                <strong>Creació de Videojocs</strong><br>
+                                <strong data-i18n="courses.game_creation">Creació de Videojocs</strong><br>
                                 <img src="images/icon-minecraft.png" alt="Unity" class="inline-icon">
                             </span>
                             Unity 3D, Blender 3D, Unreal Engine, Scratch
@@ -167,7 +169,7 @@
 
                         <div class="course-item">
                             <span>
-                                <strong>Programació</strong><br>
+                                <strong data-i18n="courses.programming">Programació</strong><br>
                                 <img src="images/icon-code.png" alt="Programació" class="inline-icon">
                             </span>
                             C, C++, Java SE, Python, HTML, PHP, MySQL
@@ -175,15 +177,15 @@
 
                         <div class="course-item">
                             <span>
-                                <strong>Robòtica</strong><br>
+                                <strong data-i18n="courses.robotics">Robòtica</strong><br>
                                 <img src="images/icon-arduino.png" alt="Arduino" class="inline-icon">
                             </span>
-                            Arduino, Impressió 3D, Scratch, Electrònica
+                            <span data-i18n="courses.robotica">Arduino, Impressió 3D, Scratch, Electrònica</span>
                         </div>
 
                         <div class="course-item">
                             <span>
-                                <strong>Ofimàtica / Mecanografia</strong><br>
+                                <strong data-i18n="courses.office_typing">Ofimàtica / Mecanografia</strong><br>
                                 <img src="images/icon-office.png" alt="Microsoft Office" class="inline-icon">
                             </span>
                             Windows, Internet, Word, Excel, PowerPoint
@@ -192,23 +194,23 @@
                 </div>
 
                 <br>
-                <p>El CES és un centre de formació acadèmica i professional especialitzada en idiomes, reforç escolar i noves tecnologies. Sigui quina sigui l'edat o la necessitat, aquí trobareu l'ajuda que busqueu en reforç, preparació de proves d'accés, exàmens oficials, logopèdia o informàtica.</p>
+                <p data-i18n="about.description">El CES és un centre de formació acadèmica i professional especialitzada en idiomes, reforç escolar i noves tecnologies. Sigui quina sigui l'edat o la necessitat, aquí trobareu l'ajuda que busqueu en reforç, preparació de proves d'accés, exàmens oficials, logopèdia o informàtica.</p>
 
-                <h3>Grups reduïts, classes a mida</h3>
-                <p>Al CES el nombre d'alumnes per grup és molt reduït, i les classes es fan a mida segons les necessitats en cada cas. Així doncs, podem conèixer exactament l'estat de cada un dels alumnes i fer un seguiment individual que ens permet adequar el temari i focalitzar els continguts del curs de forma específica. Tot això sense haver de renunciar a compartir coneixements i inquietuds amb els companys de classe.</p>
+                <h3 data-i18n="about.small_groups_title">Grups reduïts, classes a mida</h3>
+                <p data-i18n="about.small_groups_desc">Al CES el nombre d'alumnes per grup és molt reduït, i les classes es fan a mida segons les necessitats en cada cas. Així doncs, podem conèixer exactament l'estat de cada un dels alumnes i fer un seguiment individual que ens permet adequar el temari i focalitzar els continguts del curs de forma específica. Tot això sense haver de renunciar a compartir coneixements i inquietuds amb els companys de classe.</p>
 
-                <p>D'aquesta manera obtenim totes les avantatges d'un professor particular, amb les possibilitats que ofereix el treball en grup amb persones d'interessos comuns: diàleg, motivació, acceptació... L'èxit està assegurat!</p>
+                <p data-i18n="about.advantages">D'aquesta manera obtenim totes les avantatges d'un professor particular, amb les possibilitats que ofereix el treball en grup amb persones d'interessos comuns: diàleg, motivació, acceptació... L'èxit està assegurat!</p>
 
-                <h3>Horari a la carta: anem al teu ritme!</h3>
-                <p>A la nostra acadèmia tu decideixes el temps que vols invertir en la teva formació, i nosaltres ens adaptem al teu ritme d'aprenentatge. A més, dins els nostres horaris, pots triar les hores que més et convinguin.</p>
+                <h3 data-i18n="about.flexible_schedule_title">Horari a la carta: anem al teu ritme!</h3>
+                <p data-i18n="about.flexible_schedule_desc">A la nostra acadèmia tu decideixes el temps que vols invertir en la teva formació, i nosaltres ens adaptem al teu ritme d'aprenentatge. A més, dins els nostres horaris, pots triar les hores que més et convinguin.</p>
 
                 
 
                 <div class="contact-form">
-                    <h3>Contacta</h3>
+                    <h3 data-i18n="contact.title">Contacta</h3>
                     <form id="contact-form">
                         <div class="form-group">
-                            <label for="nom">Nom:</label>
+                            <label for="nom" data-i18n="contact.name">Nom:</label>
                             <input type="text" id="nom" name="nom">
                         </div>
                         <div class="form-group">
@@ -216,14 +218,14 @@
                             <input type="email" id="email" name="email">
                         </div>
                         <div class="form-group">
-                            <label for="telefon">Telèfon:</label>
+                            <label for="telefon" data-i18n="contact.phone">Telèfon:</label>
                             <input type="tel" id="telefon" name="telefon">
                         </div>
                         <div class="form-group">
-                            <label for="missatge">¿Què t'interessa?:</label>
+                            <label for="missatge" data-i18n="contact.interest">¿Què t'interessa?:</label>
                             <textarea id="missatge" name="missatge" rows="5"></textarea>
                         </div>
-                        <button type="submit" class="submit-btn">Enviar</button>
+                        <button type="submit" class="submit-btn" data-i18n="contact.send">Enviar</button>
                     </form>
                 </div>
             </div>
@@ -241,23 +243,23 @@
             
             <!-- Izquierda: Horarios -->
             <div class="footer-left">
-                <h3>⏰ Horaris</h3>
+                <h3 data-i18n="footer.schedule_title">⏰ Horaris</h3>
                 <div class="schedule-row">
                     <div class="schedule-item">
-                        <strong>De dilluns a divendres:</strong><br>
-                        Matins de 9:30 h. a 13:30 h.<br>
-                        Tardes de 16:45 h a 20:45 h.
+                        <strong data-i18n="footer.weekdays">De dilluns a divendres:</strong><br>
+                        <span data-i18n="footer.morning_hours">Matins de 9:30 h. a 13:30 h.</span><br>
+                        <span data-i18n="footer.afternoon_hours">Tardes de 16:45 h a 20:45 h.</span>
                     </div>
                     <div class="schedule-item">
-                        <strong>Dissabtes:</strong><br>
-                        Matins de 10:00 h. a 13:00 h.
+                        <strong data-i18n="footer.saturdays">Dissabtes:</strong><br>
+                        <span data-i18n="footer.saturday_hours">Matins de 10:00 h. a 13:00 h.</span>
                     </div>
                 </div>
             </div>
 
             <!-- Derecha: Contacto -->
             <div class="footer-right">
-                <h3>Informació de contacte</h3>
+                <h3 data-i18n="footer.contact_info">Informació de contacte</h3>
                 <div class="contact-row">
                     <div class="contact-detail">
                         <div class="contact-icon">📍</div>
@@ -271,10 +273,10 @@
                     <div class="contact-detail">
                         <div class="contact-icon">🚇</div>
                         <div>
-                            <strong>Transport públic</strong><br>
-                            - A 50 m. de l'estació de Rodalies "Sabadell Centre"<br>
-                            - A 50 m. de l'estació central d'autobusos<br>
-                            - A 200 m. de l'estació dels FGC "Sabadell Plaça Major"
+                            <strong data-i18n="footer.public_transport">Transport públic</strong><br>
+                            <span data-i18n="footer.train_distance">- A 50 m. de l'estació de Rodalies "Sabadell Centre"</span><br>
+                            <span data-i18n="footer.bus_distance">- A 50 m. de l'estació central d'autobusos</span><br>
+                            <span data-i18n="footer.fgc_distance">- A 200 m. de l'estació dels FGC "Sabadell Plaça Major"</span>
                         </div>
                     </div>
                 </div>
@@ -298,5 +300,17 @@
     
     <script src="sections.js"></script>
     <script src="main.js"></script>
+    <script src="translations.js"></script>
+    <script>
+        // Cambiar idioma al hacer click
+        document.getElementById('btn-cat').addEventListener('click', () => translatePage('cat'));
+        document.getElementById('btn-es').addEventListener('click', () => translatePage('es'));
+        
+        // Al cargar la página, aplicar el idioma guardado
+        window.addEventListener('DOMContentLoaded', () => {
+            const savedLang = localStorage.getItem('selectedLang') || 'cat';
+            translatePage(savedLang);
+        });
+    </script>
 </body>
 </html>
