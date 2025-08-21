@@ -415,13 +415,12 @@ main {
 }
 
 /* Contact info en fila */
-.contact-row {
+.contact-row, .contact-row-2 {
     display: flex;
     gap: 20px;
     margin-top: 10px;
     flex-wrap: wrap;
 }
-
 
 .contact-detail {
     display: flex;
@@ -431,18 +430,6 @@ main {
 
 .contact-icon {
     font-size: 18px;
-}
-
-/* Responsivo */
-@media (max-width: 768px) {
-    .footer-content {
-        flex-direction: column;
-        text-align: center;
-    }
-    .schedule-row, .contact-row {
-        flex-direction: column;
-        align-items: center;
-    }
 }
 
 .courses {
@@ -567,6 +554,7 @@ main {
 /* CSS */
 .language-switcher {
     display: flex;
+    padding-left: 20px;
     gap: 10px;
     justify-content: center;
     margin: 20px 0;
@@ -591,8 +579,8 @@ main {
 }
 
 .language-switcher button.active {
-    background: linear-gradient(135deg, #f59e0b, #d97706);
-    color: white;
+    background: linear-gradient(135deg, #f59e0b, #d97706) !important;
+    color: white !important;
 }
 
 /* Animación de aparición de contenido al cambiar idioma */
@@ -607,41 +595,393 @@ main {
     }
 }
 
-/* Responsive Design */
+.hamburger,
+.sidebar,
+.overlay {
+    display: none;
+}
+
+/* ========== MOBILE APP STYLE - HEADER MEJORADO ========== */
 @media (max-width: 768px) {
-    .nav-menu {
-        flex-direction: column;
+    body {
+        font-size: 0.95rem;
+        padding: 0;
+        background: linear-gradient(180deg, #667eea, #764ba2);
     }
-    
-    .nav-link {
-        padding: 15px 20px;
+
+    header {
+        height: 70px; /* Altura fija más controlada */
+        width: 100% !important;
+        min-width: 100% !important;
+        max-width: 100% !important;
+        position: fixed !important; /* Asegurar que ocupe toda la pantalla */
+        top: 0 !important;
+        left: 0 !important;
+        right: 0 !important;
+        margin: 0 !important; /* Eliminar cualquier margen */
+        align-items: center;
+        justify-content: space-between;
+        padding: 0;
+        box-sizing: border-box;
     }
-    
+
+    /* Logo y texto más compactos */
     .header-content {
-        flex-direction: column;
-        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 100%;
+        padding: 0px !important;
     }
-    
-    .section-header {
-        flex-direction: column;
-        text-align: center;
+
+    .logo-container {
+        display: flex;
+        align-items: center;
+        flex: 1;
+        min-width: 0;
+        max-width: calc(100% - 100px); /* Menos espacio reservado para controles */
     }
-    
+
+    .logo-icon {
+        width: 32px;
+        height: 32px;
+        font-size: 12px;
+        flex-shrink: 0;
+    }
+
+    .logo-text {
+        flex: 1;
+        min-width: 0;
+    }
+
     .logo-text h1 {
-        font-size: 1.8rem;
+        font-size: 0.85rem !important;
+        margin: 0;
+        white-space: nowrap;
+        overflow: visible;
+        line-height: 1.2;
+        font-weight: 600;
     }
-    
+
+    /* Contenedor de controles del lado derecho */
+    .header-controls {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+        flex-shrink: 0;
+        min-width: 90px; /* Reducido significativamente */
+    }
+
+    /* Lenguajes mucho más compactos con máxima especificidad */
+    .language-switcher {
+        display: flex !important;
+        gap: 1px !important;
+    }
+
+    .btn-cat,
+    .btn-es {
+        all: unset !important;
+        display: inline-block !important;
+        padding: 2px 4px !important;
+        font-size: 59px !important; /* Más pequeño en móvil */
+        border-radius: 3px !important;
+        background: linear-gradient(135deg, #6d28d9, #9333ea) !important;
+        color: white !important;
+        min-width: 25px !important;
+        max-width: 35px !important;
+        height: 8px !important;
+        text-align: center !important;
+        line-height: 1.1 !important;
+        font-weight: 500 !important;
+        cursor: pointer !important;
+        box-sizing: border-box !important;
+    }
+
+    .language-switcher button {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 25px;
+        font-weight: 600;
+        font-size: 0.7rem !important;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        background: linear-gradient(135deg, #6d28d9, #9333ea);
+        color: white;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .btn-cat.active,
+    .btn-es.active,
+    button.btn-cat.active,
+    button.btn-es.active,
+    .language-switcher .btn-cat.active,
+    .language-switcher .btn-es.active {
+        background: linear-gradient(135deg, #f59e0b, #d97706) !important;
+    }
+
+    .btn-cat:hover,
+    .btn-es:hover,
+    button.btn-cat:hover,
+    button.btn-es:hover {
+        transform: scale(1.05) !important;
+    }
+
+    /* Botón hamburguesa más compacto */
+    .hamburger {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 30px;
+        height: 30px;
+        font-size: 1.1rem;
+        cursor: pointer;
+        color: #4f46e5;
+        background: rgba(255, 255, 255, 0.2);
+        border: none;
+        border-radius: 4px;
+        transition: all 0.3s ease;
+        flex-shrink: 0;
+    }
+
+    .hamburger:hover {
+        transform: scale(1.05);
+    }
+
+    /* Ocultar nav de escritorio */
+    nav {
+        display: none;
+    }
+
+    /* Sidebar */
+    .sidebar {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 70%;
+        max-width: 280px;
+        height: 100%;
+        background: white;
+        box-shadow: 4px 0 25px rgba(0,0,0,0.2);
+        transition: left 0.3s ease;
+        z-index: 2000;
+        display: flex;
+        flex-direction: column;
+        padding: 40px 20px;
+    }
+
+    .sidebar.active {
+        left: 0;
+    }
+
+    .sidebar a {
+        text-decoration: none;
+        color: #374151;
+        font-size: 1.1rem;
+        padding: 15px 0;
+        border-bottom: 1px solid #eee;
+        transition: color 0.3s ease;
+    }
+
+    .sidebar a:hover {
+        color: #4f46e5;
+    }
+
+    /* Overlay */
+    .overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,0.4);
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.3s ease;
+        z-index: 1500;
+    }
+
+    .overlay.active {
+        opacity: 1;
+        pointer-events: auto;
+    }
+
+    /* Main content ajustado */
+    main {
+        padding-top: 90px; /* Ajustado para el nuevo header */
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 70px;
+    }
+
+    /* Resto del contenido */
     .content-section {
         padding: 20px;
-        margin-bottom: 20px;
+        margin-bottom: 15px;
+        border-radius: 15px;
+    }
+
+    .section-title h2 {
+        font-size: 1.8rem;
+    }
+
+    /* Contenedor principal */
+    .courses {
+        display: flex;
+        flex-wrap: wrap;           /* Permite que imagen y texto se apilen en móvil */
+        justify-content: center;   /* Centrar horizontalmente */
+        gap: 20px;                 /* Separación entre imagen y texto */
+        padding: 20px;
+    }
+
+    /* Imagenes */
+    .courses-image {
+        flex: 1 1 300px;           /* Flex-grow, shrink y base width */
+        display: flex;
+        flex-direction: column;
+        align-items: center;       /* Centrar imágenes */
+        gap: 10px;
+    }
+
+    .courses-image img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    /* Texto */
+    .courses-text {
+        flex: 1 1 300px;           /* Flex-grow, shrink y base width */
+        display: flex;
+        flex-direction: column;
+        align-items: center;       /* Centrar todos los elementos de texto */
+        text-align: center;        /* Centrar texto dentro de cada bloque */
+        gap: 15px;                 /* Separación vertical entre elementos */
+    }
+
+    /* Cada ítem de curso */
+    .course-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 5px;                  /* Separación entre iconos y texto */
+    }
+
+    /* Iconos inline */
+    .inline-icon{
+        vertical-align: middle;
+        margin: 0 5px 0 0;
+        height: 40px;
     }
     
-    .courses-grid {
-        grid-template-columns: 1fr;
-        gap: 20px;
+    .inline-icon-flags {
+        vertical-align: middle;
+        margin: 0 5px 0 0;
+        height: 25px;
     }
-    
-    .schedule-grid {
-        grid-template-columns: 1fr;
+
+    /* Botones */
+    .whatsapp-btn,
+    .instagram-btn {
+        width: 300px;   
+        display: flex;          /* Activar flex para que justify-content funcione */
+        justify-content: center; /* Centrar el contenido dentro del botón */
+        margin: 0 auto;         /* Centrar el botón en la pantalla */
+        font-size: 1rem;
+        padding: 15px;
+        border-radius: 12px;
     }
+
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    .schedule-row {
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact-icon {
+        display: none;
+    }
+    .contact-row {
+        display: flex;
+        flex-direction: column; /* Apilar los botones verticalmente */
+        align-items: center;    /* Centrar los botones horizontalmente */
+        gap: 10px;              /* Separación entre botones */
+    }
+
+    .contact-row-2 {
+        all: unset !important;
+        padding-top: 10px !important;
+        display: flex !important;
+        flex-direction: column !important; /* Apilar los botones verticalmente */
+        align-items: center !important;    /* Centrar los botones horizontalmente */
+        gap: 10px !important;              /* Separación entre botones */
+    }
+
+    /* Bottom navigation */
+    .bottom-nav {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background: white;
+        border-top: 1px solid #ddd;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px 0;
+        box-shadow: 0 -4px 20px rgba(0,0,0,0.1);
+        z-index: 1000;
+    }
+
+    .bottom-nav a {
+        flex: 1;
+        text-align: center;
+        color: #4f46e5;
+        font-size: 1.2rem;
+        text-decoration: none;
+    }
+
+    /* Contact form */
+    .contact-form {
+        padding: 20px;
+        border-radius: 15px;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        font-size: 1rem;
+        padding: 12px;
+    }
+
+    .submit-btn {
+        width: 100%;
+        border-radius: 12px;
+        padding: 15px;
+        font-size: 1rem;
+    }
+
+    .footer-content {
+        display: flex;            /* Asegúrate de que sea flex */
+        flex-direction: column;   /* Apilar los elementos verticalmente */
+        align-items: center;      /* Centrar horizontalmente los hijos */
+        justify-content: center;  /* Centrar verticalmente si es necesario */
+        text-align: center;       /* Centrar el texto */
+        gap: 15px;                /* Espacio entre elementos */
+    }
+}
+
+@media (max-width: 450px) {
+
+.logo-text h1 {
+    font-size: 0.7em !important;
+    margin: 0;
+    white-space: nowrap;
+    overflow: visible;
+    line-height: 1.2;
+    font-weight: 600;
+}
+
 }

@@ -501,13 +501,21 @@ const translations = {
     }
 };
 
+const buttons = document.querySelectorAll('.language-switcher button:not(.hamburger)');
+
 function translatePage(lang = 'cat') {
-    document.querySelectorAll('[data-i18n]').forEach(el => {
-        const key = el.getAttribute('data-i18n');
-        if(translations[lang] && translations[lang][key]) {
-            el.textContent = translations[lang][key];
-        }
-    });
-    // Guardar la selección en localStorage
-    localStorage.setItem('selectedLang', lang);
+document.querySelectorAll('[data-i18n]').forEach(el => {
+    const key = el.getAttribute('data-i18n');
+    if (translations[lang] && translations[lang][key]) {
+    el.textContent = translations[lang][key];
+    }
+});
+localStorage.setItem('selectedLang', lang);
+updateActiveButton(lang);
+}
+
+function updateActiveButton(lang) {
+buttons.forEach(btn => {
+    btn.classList.toggle('active', btn.id === `btn-${lang}`);
+});
 }
