@@ -656,12 +656,7 @@ main {
     }
 
     .logo-text h1 {
-        font-size: 0.85rem !important;
-        margin: 0;
-        white-space: nowrap;
-        overflow: visible;
-        line-height: 1.2;
-        font-weight: 600;
+        display: none;
     }
 
     /* Contenedor de controles del lado derecho */
@@ -683,7 +678,6 @@ main {
     .btn-es {
         all: unset !important;
         display: inline-block !important;
-        padding: 2px 4px !important;
         font-size: 59px !important; /* Más pequeño en móvil */
         border-radius: 3px !important;
         background: linear-gradient(135deg, #6d28d9, #9333ea) !important;
@@ -971,17 +965,4 @@ main {
         text-align: center;       /* Centrar el texto */
         gap: 15px;                /* Espacio entre elementos */
     }
-}
-
-@media (max-width: 450px) {
-
-.logo-text h1 {
-    font-size: 0.7em !important;
-    margin: 0;
-    white-space: nowrap;
-    overflow: visible;
-    line-height: 1.2;
-    font-weight: 600;
-}
-
 }
