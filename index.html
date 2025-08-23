@@ -368,6 +368,13 @@
             } else {
                 showSection("centre"); // sección por defecto si no hay hash
             }
+
+            // Forzar scroll al top
+            window.scrollTo({
+                top: 0,
+                left: 0,
+                behavior: "smooth"
+            });
         });
 
         // Al cargar la página, mostrar la sección que corresponda al hash
