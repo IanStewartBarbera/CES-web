@@ -331,6 +331,7 @@ main {
 .form-group textarea {
     width: 100%;
     padding: 15px;
+    resize: none;
     border: 2px solid #e5e7eb;
     border-radius: 10px;
     font-size: 1rem;
@@ -581,6 +582,10 @@ main {
 .language-switcher button.active {
     background: linear-gradient(135deg, #f59e0b, #d97706) !important;
     color: white !important;
+}
+
+#backToTop {
+    display: none;
 }
 
 /* Animación de aparición de contenido al cambiar idioma */
@@ -948,6 +953,7 @@ main {
     .form-group textarea {
         font-size: 1rem;
         padding: 12px;
+        resize: none;
     }
 
     .submit-btn {
@@ -964,5 +970,36 @@ main {
         justify-content: center;  /* Centrar verticalmente si es necesario */
         text-align: center;       /* Centrar el texto */
         gap: 15px;                /* Espacio entre elementos */
+    }
+    #backToTop {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 99;
+        background: linear-gradient(135deg, #4f46e5, #7c3aed);
+        color: white;
+        border: none;
+        border-radius: 50%;
+        width: 55px;      /* ancho fijo */
+        height: 55px;     /* alto fijo -> círculo perfecto */
+        font-size: 26px;  /* tamaño de la flecha */
+        font-weight: bold; /* que sea más gruesa */
+        line-height: 55px; /* centra verticalmente */
+        text-align: center;
+        cursor: pointer;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.3s ease, transform 0.3s ease;
+    }
+
+    #backToTop.show {
+        opacity: 1;
+        pointer-events: auto;
+        transform: translateY(0);
+    }
+
+    #backToTop:hover {
+        transform: scale(1.15);
     }
 }

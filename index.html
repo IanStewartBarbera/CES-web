@@ -64,6 +64,7 @@
     }
     </script>
 
+    <link rel="icon" type="image/png" href="favicon.png">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -100,11 +101,11 @@
     </nav>
 
     <div class="sidebar" id="sidebar">
-        <a href="#CES" onclick="showSection('centre')" data-i18n="nav.centre">El Centre d'Estudis Sabadell</a>
-        <a href="#Idiomes" onclick="showSection('idiomes')" data-i18n="nav.idiomes">Idiomes</a>
-        <a href="#Informatica" onclick="showSection('informatica')" data-i18n="nav.informatica">Informàtica</a>
-        <a href="#Reforcament" onclick="showSection('reforcament')" data-i18n="nav.reforcament">Reforçament</a>
-        <a href="#Proves"  onclick="showSection('proves')" data-i18n="nav.proves">Proves</a>
+        <a href="#centre" onclick="showSection('centre')" data-i18n="nav.centre">Centre d'Estudis Sabadell</a>
+        <a href="#idiomes" onclick="showSection('idiomes')" data-i18n="nav.idiomes">Idiomes</a>
+        <a href="#informatica" onclick="showSection('informatica')" data-i18n="nav.informatica">Informàtica</a>
+        <a href="#reforcament" onclick="showSection('reforcament')" data-i18n="nav.reforcament">Reforçament</a>
+        <a href="#proves"  onclick="showSection('proves')" data-i18n="nav.proves">Proves</a>
     </div>
 
     <div class="overlay" id="overlay"></div>
@@ -249,6 +250,8 @@
         </div>
     </main>
 
+    <button id="backToTop" title="Tornar a dalt">⬆</button>
+
     <footer class="footer">
         <div class="footer-content">
             
@@ -355,6 +358,26 @@
             sidebar.classList.remove('active');
             overlay.classList.remove('active');
             });
+        });
+
+        // Manejar navegación con el botón atrás/adelante del navegador
+        window.addEventListener("hashchange", () => {
+            const hash = window.location.hash.replace("#", "");
+            if (hash) {
+                showSection(hash);
+            } else {
+                showSection("centre"); // sección por defecto si no hay hash
+            }
+        });
+
+        // Al cargar la página, mostrar la sección que corresponda al hash
+        document.addEventListener("DOMContentLoaded", () => {
+            const hash = window.location.hash.replace("#", "");
+            if (hash) {
+                showSection(hash);
+            } else {
+                showSection("centre");
+            }
         });
 
     </script>

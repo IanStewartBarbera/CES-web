@@ -62,7 +62,7 @@ function handleContactForm() {
             
             // Validación básica
             if (!data.nom || !data.email || !data.missatge) {
-                alert('Si us plau, omple tots els camps obligatoris.');
+                alert('Si us plau, omple tots els camps del formulari.');
                 return;
             }
             
@@ -184,8 +184,41 @@ function toggleMobileMenu() {
     }
 }
 
+function handleBackToTop() {
+  const backToTopBtn = document.getElementById("backToTop");
+
+  // Mostrar / ocultar botón al hacer scroll
+  window.addEventListener("scroll", () => {
+    if (window.scrollY > 200) {
+      backToTopBtn.classList.add("show");
+    } else {
+      backToTopBtn.classList.remove("show");
+    }
+  });
+
+  // Acción al hacer click
+  backToTopBtn.addEventListener("click", () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  });
+}
+
 // Función para inicializar la aplicación
 function initializeApp() {
+
+    if ("scrollRestoration" in history) {
+        history.scrollRestoration = "manual";
+    }
+        // Forzar scroll arriba justo al cargar la página
+    window.addEventListener("load", () => {
+    window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: "instant" // evita animación rara
+    });
+    });
     // Configurar manejadores de eventos
     handleContactForm();
     addSmoothScrolling();
@@ -197,6 +230,7 @@ function initializeApp() {
     
     // Mostrar sección inicial
     showSection('centre');
+    handleBackToTop();
     
     console.log('Centre d\'Estudis Sabadell - Aplicación inicializada correctamente');
 }
