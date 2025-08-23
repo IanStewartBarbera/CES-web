@@ -972,6 +972,7 @@ main {
         gap: 15px;                /* Espacio entre elementos */
     }
     #backToTop {
+        all: unset !important;
         position: fixed;
         bottom: 20px;
         right: 20px;
