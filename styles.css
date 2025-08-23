@@ -971,8 +971,9 @@ main {
         text-align: center;       /* Centrar el texto */
         gap: 15px;                /* Espacio entre elementos */
     }
+
     #backToTop {
-        all: unset !important;
+        display: block;
         position: fixed;
         bottom: 20px;
         right: 20px;
